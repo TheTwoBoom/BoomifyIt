@@ -1,8 +1,5 @@
 name: Optimize resource pack
-on:
-  push:
-    tags:
-      - '**'
+on: [push]
 jobs:
   packsquash:
     name: Optimize resource pack
