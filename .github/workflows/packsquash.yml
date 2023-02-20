@@ -1,5 +1,8 @@
 name: Optimize resource pack
-on: [push]
+on:
+  push:
+    branches:
+      - 'main'
 permissions:
   contents: write
 jobs:
@@ -20,6 +23,7 @@ jobs:
       - name: Tag and create release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: action-v${{ github.run_number }}
+          name: Automatic Release {{ github.run_number }}
+          tag_name: automatic
           files: pack.zip
           prerelease: True
