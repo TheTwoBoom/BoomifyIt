@@ -7,4 +7,4 @@ Thanks to all the plattforms for making it possible:
 - [PolyHaven](https://polyhaven.com)
 
 ## Installing
-Simply download the newest stable Release from the [Releases Page](https://github.com/TheTwoBoom/BoomifyIt/releases/tag/stable) and import the TexturePack in Minecraft
+Simply download the Latest Stable Release from the [Releases Page](https://github.com/TheTwoBoom/BoomifyIt/releases/tag/stable) and import the TexturePack in Minecraft
